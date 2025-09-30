@@ -1,0 +1,6 @@
+juan-marco@JuanUbuntu:~$ groups alice
+alice : alice developers administrators
+juan-marco@JuanUbuntu:~$ groups bob
+bob : bob developers
+juan-marco@JuanUbuntu:~$ groups charlie
+charlie : charlie testers

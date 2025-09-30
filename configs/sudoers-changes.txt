@@ -1,0 +1,4 @@
+sudo visudo -c
+/etc/sudoers análisis OK
+/etc/sudoers.d/README análisis OK
+/etc/sudoers.d/developers: permisos equivocados, debe ser el modo 0440

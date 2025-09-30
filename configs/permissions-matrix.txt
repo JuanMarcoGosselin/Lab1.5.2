@@ -1,0 +1,37 @@
+
+sudo chage -l alice
+Último cambio de contraseña					:sep 29, 2025
+La contraseña caduca					: nunca
+Contraseña inactiva					: nunca
+La cuenta caduca						: nunca
+Número de días mínimo entre cambio de contraseña		: 0
+Número de días máximo entre cambio de contraseña		: 99999
+Número de días de aviso antes de que caduque la contraseña	: 7
+
+_______________________________________________________________________
+
+sudo chage -l temp_user
+Último cambio de contraseña					:sep 30, 2025
+La contraseña caduca					: nunca
+Contraseña inactiva					: nunca
+La cuenta caduca						: dic 31, 2024
+Número de días mínimo entre cambio de contraseña		: 0
+Número de días máximo entre cambio de contraseña		: 99999
+Número de días de aviso antes de que caduque la contraseña	: 7
+
+_______________________________________________________________________
+
+sudo ls -la /shared/*/
+/shared/projects/:
+total 8
+drwxrwx--- 2 root  developers 4096 sep 29 18:24 .
+drwxr-xr-x 4 root  root       4096 sep 29 18:22 ..
+-rw-rw-r-- 1 alice alice         0 sep 29 18:24 alice-file.txt
+-rw-rw-r-- 1 bob   bob           0 sep 29 18:24 bob-file.txt
+
+/shared/testing/:
+total 8
+drwxrwxr-x 2 root    testers 4096 sep 29 18:26 .
+drwxr-xr-x 4 root    root    4096 sep 29 18:22 ..
+-rw-rw-r-- 1 charlie charlie    0 sep 29 18:26 test-file.txt
+
